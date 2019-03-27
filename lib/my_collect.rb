@@ -7,7 +7,7 @@ def my_collect(array)
 
   end #end while 
   
-  
+  return new_array
   
 end #end my_collect()
 
