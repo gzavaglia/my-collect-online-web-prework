@@ -4,10 +4,10 @@ def my_collect(array)
     new_array = []
     new_array = yield array[i]
     i = i+1
-
+return new_array
   end #end while 
   
-  return new_array
+  
   
 end #end my_collect()
 
